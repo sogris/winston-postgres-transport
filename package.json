@@ -39,6 +39,7 @@
     "url": "https://github.com/ofkindness/winston-postgres-transport/issues"
   },
   "dependencies": {
+    "logform": "^2.2.0",
     "moment": "^2.29.1",
     "postgres": "^2.0.0-beta.8",
     "winston-transport": "^4.4.0"
