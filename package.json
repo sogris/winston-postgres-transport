@@ -14,10 +14,16 @@
     "name": "Andrei Tretyakov",
     "url": "https://github.com/ofkindness"
   },
+  "main": "lib/winston-postgres-transport.js",
+  "types": "lib/winston-postgres-transport.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
+    "postversion": "git push && git push --tags",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
     "test": "jest --config jestconfig.json"
   },
   "license": "MIT",
@@ -32,7 +38,6 @@
   "bugs": {
     "url": "https://github.com/ofkindness/winston-postgres-transport/issues"
   },
-  "main": "lib/winston-postgres-transport.js",
   "dependencies": {
     "moment": "^2.29.1",
     "postgres": "^1.0.2",
