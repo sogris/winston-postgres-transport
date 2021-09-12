@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "moment": "^2.29.1",
-    "postgres": "^1.0.2",
+    "postgres": "^2.0.0-beta.8",
     "winston-transport": "^4.4.0"
   },
   "devDependencies": {

@@ -32,5 +32,5 @@ describe('Postgres', () => {
 
   queryTestSuite(transport);
 
-  afterAll(() => transport.end());
+  afterAll(() => transport.close());
 });
