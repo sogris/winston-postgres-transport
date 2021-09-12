@@ -11,7 +11,7 @@ const info = {
   message: 'message',
 };
 
-module.exports = (transport: any) => {
+export default (transport: any) => {
   describe('.query()', () => {
     it('should be present', () => {
       ok(transport.query);
