@@ -11,7 +11,7 @@ A Winston transport for PostgreSQL. Based on on [Postgres](https://github.com/po
 
 ```console
   $ npm install winston
-  $ npm install winston-postgres-transport
+  $ npm install sogris/winston-postgres-transport
 ```
 
 You must have a table in your PostgreSQL database, for example:
