@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ofkindness/winston-postgres-transport.git"
+    "url": "https://github.com/sogris/winston-postgres-transport.git"
   },
   "homepage": "https://github.com/ofkindness/winston-postgres-transport",
   "bugs": {
